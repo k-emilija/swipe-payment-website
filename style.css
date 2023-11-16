@@ -271,7 +271,7 @@ p {
   background-color: rgba(250, 250, 250, 0.5);
 }
 
-/* HERO */
+/* HERO*/
 
 main {
   margin: var(--spacing-xl) 0;
@@ -299,4 +299,20 @@ main {
 .hero-phone {
   height: 628px;
   transform: translate(32px, -32px);
+}
+
+/* PARTNERS SECTION */
+
+.partners-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  column-gap: var(--spacing-md);
+  row-gap: var(--spacing-lg);
+  margin: var(--spacing-xl) 0;
+}
+
+.partners-grid img {
+  height: 60px;
+  place-self: center;
 }

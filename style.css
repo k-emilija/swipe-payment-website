@@ -532,3 +532,11 @@ p {
   position: absolute;
   top: 10%;
 }
+
+/* VIRTUAL EVENTS SECTION */
+
+.virtual-events-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}

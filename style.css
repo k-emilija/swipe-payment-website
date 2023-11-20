@@ -494,6 +494,9 @@ p {
   background-color: var(--primary-accent);
   /* With inheritance I can change the text in this section white */
   color: var(--text-light);
+
+  padding: calc(var(--spacing-xl) * 3) 0;
+  position: relative;
 }
 
 .global-section a {
@@ -520,4 +523,12 @@ p {
   border-left: 2px solid var(--blue-1);
   padding: 0 0 0 var(--spacing-sm);
   line-height: 28px;
+}
+
+#globe {
+  max-width: 844px;
+  opacity: 25%;
+
+  position: absolute;
+  top: 10%;
 }

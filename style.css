@@ -558,6 +558,11 @@ p {
   background-color: var(--primary-accent);
 }
 
+.virtual-events-section .col-left {
+  height: 446px;
+  padding: 0 var(--spacing-xl) 0 0;
+}
+
 .swipe-sessions-card {
   width: 540px;
   height: 446px;
@@ -598,8 +603,6 @@ p {
   z-index: 3;
   bottom: -70px;
   left: var(--spacing-xl);
-  /* width: 140px;
-  height: 80px; */
 }
 
 .virtual-events-section .avatars img {
@@ -609,4 +612,21 @@ p {
 .virtual-events-section .avatars img:nth-of-type(2) {
   position: absolute;
   left: 55px;
+}
+
+.swipe-sessions-card .card-bottom {
+  width: 100%;
+  height: 50%;
+  box-sizing: border-box;
+  padding: var(--spacing-xl);
+}
+
+.swipe-sessions-card .card-bottom .subtitle {
+  margin: var(--spacing-lg) 0 0 0;
+}
+
+.swipe-sessions-card .card-bottom .secondary-text {
+  color: var(--text-dark);
+  width: 50%;
+  font-weight: 700;
 }

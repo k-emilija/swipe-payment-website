@@ -630,3 +630,12 @@ p {
   width: 50%;
   font-weight: 700;
 }
+
+/* GETTING STARTED SECTION */
+
+.getting-started-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: calc(var(--spacing-xl) * 2) 0;
+}

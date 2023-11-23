@@ -637,7 +637,11 @@ p {
   width: 100%;
   display: flex;
   justify-content: center;
-  padding: calc(var(--spacing-xl) * 2) 0;
+  padding: var(--spacing-xl) 0;
+}
+
+.getting-started-section .col-left {
+  padding: 0 var(--spacing-xl) 0 0;
 }
 
 .getting-started-section .col-right {
@@ -645,5 +649,22 @@ p {
 }
 
 .getting-started-section .col-right .card {
+  box-sizing: border-box;
   width: 50%;
+  padding: 0 var(--spacing-sm) 0 0;
+  margin: 0 var(--spacing-md) 0 0;
+}
+
+.getting-started-section .col-right .card .secondary-button {
+  color: var(--purple-2);
+  padding-left: 0;
+}
+
+.getting-started-section .primary-button {
+  background-color: var(--purple-1);
+  margin: var(--spacing-md) 0;
+}
+
+.getting-started-section .primary-button:hover {
+  background-color: var(--primary-accent);
 }

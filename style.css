@@ -577,10 +577,36 @@ p {
 
 .swipe-sessions-card .card-top::before {
   content: "";
+  background: var(--primary-gradient);
   width: 100%;
   height: 150%;
-  background-color: var(--purple-1);
   position: absolute;
   top: -40%;
   transform: skewY(-5deg);
+  z-index: 1;
+}
+
+#sessions-logo {
+  z-index: 2;
+  width: 338px;
+}
+
+/* The logo in in a flex container and centered, but because there are avatar images, it doesn't seem like it's centered, so I am getting rid of these avatar elements in that box by absolutely positioning them */
+
+.virtual-events-section .avatars {
+  position: absolute;
+  z-index: 3;
+  bottom: -70px;
+  left: var(--spacing-xl);
+  /* width: 140px;
+  height: 80px; */
+}
+
+.virtual-events-section .avatars img {
+  width: 80px;
+}
+
+.virtual-events-section .avatars img:nth-of-type(2) {
+  position: absolute;
+  left: 55px;
 }

@@ -308,7 +308,6 @@ p {
 /* ANIMATED GRADIENT */
 
 #gradient-canvas {
-  background-color: #7000ff;
   width: 200%;
   height: 970px;
   transform: rotate(-10deg);
@@ -316,6 +315,11 @@ p {
   top: -600px;
   left: -50%;
   z-index: -10;
+  /* The colors I have to specify */
+  --gradient-color-1: #ef008f;
+  --gradient-color-2: #6ec3f4;
+  --gradient-color-3: #7038ff;
+  --gradient-color-4: #ffba27;
 }
 
 /* HERO*/

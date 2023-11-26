@@ -60,7 +60,7 @@ body {
   justify-content: center;
   align-items: center;
 
-  background-color: rgb(214, 214, 214);
+  background-color: var(--bg-light);
 }
 
 main {
@@ -430,9 +430,22 @@ p {
   width: 100%;
   display: flex;
   justify-content: center;
-
   color: var(--text-light);
+  padding: calc(var(--spacing-xl) * 3) 0;
+  position: relative;
+  z-index: 1;
+}
+
+.integrations-section::before {
+  content: "";
+  width: 100%;
+  height: 1100px;
   background-color: var(--primary-accent);
+  position: absolute;
+  top: -32px;
+  left: 0;
+  z-index: -1;
+  transform: skewY(-10deg);
 }
 
 .integrations-section .card-container {
@@ -474,6 +487,7 @@ p {
   width: 100%;
   display: flex;
   justify-content: center;
+  padding: calc(var(--spacing-xl) * 3) 0;
 }
 
 .why-swipe-section .card-container {

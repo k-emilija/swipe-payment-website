@@ -11,6 +11,15 @@
     width: 100%;
     height: auto;
   }
+
+  /* INTEGRATIONS SECTION */
+  .integrations-section .col-left {
+    width: 70%;
+  }
+
+  .integrations-section .col-right {
+    width: 30%;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -27,6 +36,19 @@
   /* UNIFIED PLATFORM SECTION */
   .unified-platform-section h2 {
     width: 100%;
+  }
+
+  /* INTEGRATIONS SECTION */
+  .integrations-section .card-container {
+    flex-direction: column;
+  }
+
+  .integrations-section .card-container .card {
+    width: 100%;
+  }
+
+  #api-code {
+    margin: 0 0 var(--spacing-lg) 0;
   }
 }
 
@@ -48,5 +70,10 @@
   /* PARTNERS SECTION */
   .partners-grid {
     grid-template-columns: 1fr 1fr;
+  }
+
+  /* INTEGRATIONS SECTION */
+  .integrations-section .col-right {
+    display: none;
   }
 }

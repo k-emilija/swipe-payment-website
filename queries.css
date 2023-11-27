@@ -74,7 +74,7 @@
     width: 50px;
     height: 30px;
     background-color: rgba(250, 250, 250, 0.25);
-    border-radius: 20px;
+    border-radius: var(--border-radius);
     /* 'display:flex;' will undo the 'display:none;' in the style.css */
     display: flex;
     flex-direction: column;

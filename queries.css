@@ -37,6 +37,11 @@
   }
 
   /* PARTNERS SECTION */
+
+  .partners-grid {
+    margin: 0 0 var(--spacing-lg) 0;
+  }
+
   .partners-grid img {
     width: 100%;
     height: auto;
@@ -171,6 +176,8 @@
     width: 100%;
     margin: 0;
   }
+
+  /* VIRTUAL EVENTS SECTION */
 
   .virtual-events-section .col-left {
     height: 446px;

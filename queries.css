@@ -1,11 +1,12 @@
+/* SMALLER DESKTOP SIZE */
 @media only screen and (max-width: 1144px) {
-  .section-container {
-    padding: 0 var(--spacing-md);
-  }
-
   :root {
     --h1-size: 80px;
     --h1-height: 85px;
+  }
+
+  .section-container {
+    padding: 0 var(--spacing-md);
   }
 
   /* HERO SECTION */
@@ -17,6 +18,7 @@
   .hero .col-left {
     width: 60%;
   }
+
   .hero .col-right {
     width: 40%;
   }

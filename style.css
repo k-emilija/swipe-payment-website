@@ -283,6 +283,7 @@ p {
   max-width: var(--standard-width);
   padding: 0 var(--spacing-md);
   margin: 0 0 var(--spacing-xl) 0;
+  box-sizing: border-box;
 }
 
 .menu {
@@ -308,6 +309,10 @@ p {
 
 .navbar-button:hover {
   background-color: rgba(250, 250, 250, 0.5);
+}
+
+.hamburger-button {
+  display: none;
 }
 
 /* ANIMATED GRADIENT */
